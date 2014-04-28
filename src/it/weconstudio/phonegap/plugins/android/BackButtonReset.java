@@ -1,4 +1,4 @@
-package com.simplec.phonegap.plugins.videosettings;
+package it.weconstudio.phonegap.plugins.android;
 
 import org.apache.cordova.CordovaInterface;
 import android.util.Log;
