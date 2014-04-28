@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <plugin id="it.weconstudio.phonegap.plugins.android.BackButtonReset" version="0.1" provider-name="weconstudio">
+        <name>BackButtonReset</name>
+        <description>Alla pressione del bottone back resetta la webview</description>
+        <license>Apache 2.0</license>
+		<author>weconstudio</author>
+        <keywords>weconstudio,back,button,phonegap,plugins</keywords>
+
+
+	<!-- android -->
+	  <platform name="android">
+	    <config-file target="res/xml/config.xml" parent="/*">
+	      <feature name="BackButtonReset">
+	        <param name="android-package" value="it.weconstudio.phonegap.plugins.android.BackButtonReset" />
+            <param name="onload" value="true" />
+	      </feature>
+	    </config-file>
+	
+	    <source-file src="src/it/weconstudio/phonegap/plugins/android/BackButtonReset.java" target-dir="src/it/weconstudio/phonegap/plugins/android" />
+	  </platform>
+
+    </plugin>
